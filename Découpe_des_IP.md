@@ -19,9 +19,9 @@
 |       | Adresse réseaux | Adresse début de plage | Adresse de fin de plage	| Adresse de broadcast |
 | ------    | ------    | ------    | ------    | ------    |
 |Pôle informatique  |  172.16.1.0/26	|172.16.1.1    |172.16.1.62    |172.16.1.63 |
-|Pôle Administratif |172.16.1.64/26     |172.16.1.65    |172.16.1.125    |172.16.1.126|
-|Pôle Technicien    |172.16.1.127/26	|172.16.1.128    |172.16.1.189   |172.16.1.190|
-|Pôle Développement |172.16.1.191/26    |  172.16.1.192 |172.16.1.253   |172.16.1.254|
+|Pôle Administratif |172.16.1.64/26     |172.16.1.65    |172.16.1.126    |172.16.1.127|
+|Pôle Technicien    |172.16.1.128/26	|172.16.1.129    |172.16.1.190   |172.16.1.191|
+|Pôle Développement |172.16.1.192/26    |  172.16.1.193 |172.16.1.254   |172.16.1.255|
 
 * ##### Le Pôle informatique (6 bureaux, environ 50 équipements au total) 	2^6=>**64** = 62 dispos CIDR 32-6=26 on utilisera 4 fois se résultat.
 * ##### Le Pôle Administratif (4 bureaux, environ 20 équipements au total) 	
